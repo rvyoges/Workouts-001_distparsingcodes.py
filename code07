@@ -1,0 +1,54 @@
+#print the items
+#print the roles
+
+junk = {
+    "characters": {
+        "Lonestar": {
+            "id": 55923,
+            "role": "renegade",
+            "items": [
+                "space winnebago",
+                "leather jacket"
+            ]
+        },
+        "Barfolomew": {
+            "id": 55924,
+            "role": "mawg",
+            "items": [
+                "peanut butter jar",
+                "waggy tail"
+            ]
+        },
+        "Dark Helmet": {
+            "id": 99999,
+            "role": "Good is dumb",
+            "items": [
+                "Shwartz",
+                "helmet"
+            ]
+        },
+        "Skroob": {
+            "id": 12345,
+            "role": "Spaceballs CEO",
+            "items": [
+                "luggage"
+            ]
+        }
+    }
+}
+newlist=[]
+newlist.extend(junk["characters"]["Lonestar"]["items"])
+newlist.extend(junk["characters"]["Barfolomew"]["items"])
+newlist.extend(junk["characters"]["Dark Helmet"]["items"])
+newlist.extend(junk["characters"]["Skroob"]["items"])
+print("All the lists are")
+print(newlist)
+newrole=[]
+newrole.append(junk["characters"]["Lonestar"]["role"])
+newrole.append(junk["characters"]["Barfolomew"]["role"])
+newrole.append(junk["characters"]["Dark Helmet"]["role"])
+newrole.append(junk["characters"]["Skroob"]["role"])
+print("All the Roles are")
+print(newrole)
+
+wtf = {2: [1, 2, 3], 'a': {'b': {'c': {'d': {'e': [1, 2, 3]}}}}}
