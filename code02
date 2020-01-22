@@ -1,0 +1,12 @@
+#print the squares of all the number in the list 
+l2 = [3, 1, 4, 2, 5]
+newl2=[]
+i=0
+while(i<5):
+  a=l2[i]
+  a=a*a
+  newl2.append(a)
+  i=i+1
+newl2.sort()
+print("The squares of all the number in the list are")
+print(newl2)
