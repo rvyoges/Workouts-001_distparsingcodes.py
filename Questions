@@ -92,11 +92,10 @@
         }
     }
 }
-
-10. Modify the below statement to print Mats
+    Modify the below statement to print Mats
     print(body["query"]['filtered']['filter'])
 
-11.print the IMDB star rating ( 6.7)
+10.print the IMDB star rating ( 6.7)
    print the length of the movie
    movie_box = {
     "Robin Hood: Men in Tights": {
