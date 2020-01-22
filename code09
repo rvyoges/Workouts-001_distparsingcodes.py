@@ -12,5 +12,6 @@ body = {
     }
 }
 print("Get the value Mats from the Dict")
+#Modify the below statement to print Mats
+#print(body["query"]['filtered']['filter'])
 print(body["query"]["filtered"]["filter"]["term"].values())
-
