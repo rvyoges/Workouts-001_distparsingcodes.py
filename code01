@@ -1,0 +1,5 @@
+#Sort the list 
+l1 = [3, 1, 4, 2, 5]
+l1.sort()
+print("The sorted list of l1 is")
+print(l1)
