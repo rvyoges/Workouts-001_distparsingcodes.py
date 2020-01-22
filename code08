@@ -1,0 +1,26 @@
+#Get the first array value for the key 2
+#Print all the array value for the key 2
+#Print value of key 'a','b','c','d','e'
+#Print the sum of the array with key 'e'
+#set value of key 'e' to ['Chera','Chola','Pandiya']
+print("The First array value for the key 2 is")
+print(wtf[2][0])
+print("All the array values for the key 2 are")
+print(wtf[2])
+print("value of key 'a','b','c','d','e' are")
+print(wtf['a']['b']['c']['d']['e'])
+
+
+x=len(wtf['a']['b']['c']['d']['e'])
+i=0
+sum=0
+while(i<x):
+  sum=sum+wtf['a']['b']['c']['d']['e'][i]
+  i=i+1
+print("the sum of the array with key 'e'")
+print(sum)
+
+print("set value of key 'e' ")
+wtf['a']['b']['c']['d']['e']=['Chera','Chola','Pandiya']
+print(wtf['a']['b']['c']['d']['e'])
+
