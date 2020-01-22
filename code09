@@ -1,0 +1,16 @@
+#Get the value Mats from the Dict
+body = {
+    'query': {
+        'filtered': {
+            'query': {
+                'match': {'description': 'addictive'}
+            },
+            'filter': {
+                'term': {'created_by': 'Mats'}
+            }
+        }
+    }
+}
+print("Get the value Mats from the Dict")
+print(body["query"]["filtered"]["filter"]["term"].values())
+
