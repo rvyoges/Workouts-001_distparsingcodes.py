@@ -1,0 +1,11 @@
+#print all the elements in the list 
+l3 = [
+    (105, "d"),
+    (21, "z"),
+    (0, "v")]
+newl3=[]
+i=0
+while(i<3):
+  newl3.extend(l3[i])
+  i=i+1
+print(newl3)
