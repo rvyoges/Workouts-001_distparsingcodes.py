@@ -1,0 +1,31 @@
+#Print all the value in the list
+#print the hex value of green
+#print the hex codes of all colors
+l4 = [
+    {
+        "color": "red",
+        "value": "#f00"
+    },
+    {
+        "color": "green",
+        "value": "#0f0"
+    },
+    {
+        "color": "blue",
+        "value": "#00f"
+    }
+]
+newl4=[]
+i=0
+while(i<3):
+  newl4.extend(l4[i].values())
+  i=i+1
+print("The values in the list are")
+print(newl4)
+print("The hex value of green is")
+print(l4[1]["value"])
+print("The hex value of all colors are")
+j=0
+while(j<3):
+  print(l4[j]["value"])
+  j=j+1
